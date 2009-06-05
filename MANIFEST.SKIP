@@ -1,0 +1,9 @@
+^_build
+^Build$
+^blib
+~$
+\.bak$
+\.svn/
+^MANIFEST\.SKIP$
+Data-Pageset-HTML-*
+.releaserc
