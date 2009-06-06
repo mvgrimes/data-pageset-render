@@ -4,4 +4,5 @@ Makefile.PL
 Makefile
 _build/
 blib/
+Data-Pageset-Render-*.tar*
 
