@@ -12,6 +12,15 @@ my $build = Module::Build->new(
         Test::Kwalitee     => 0,
         Test::Perl::Critic => 0,
     },
+
+    meta_merge => {
+        resources => {
+            bugtracker =>
+              'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Data-Pageset-Render',
+            repository =>
+              'http://github.com/mvgrimes/data-pageset-render/tree/master'
+        }
+    },
 );
 
 $build->create_build_script;

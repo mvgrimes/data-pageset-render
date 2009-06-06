@@ -19,7 +19,7 @@ use strict;
 use warnings;
 
 use base 'Data::Pageset';
-our $VERSION = '0.14';
+our $VERSION = '0.15';
 
 sub new {
     my ( $class, $cfg ) = @_;
